@@ -1,0 +1,96 @@
+.foodslist_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.foodslist_header h1 {
+  margin: 0;
+}
+
+.foodslist_header a {
+  text-decoration: none;
+  background-color: #ee9bbc;
+  color: #16479d;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
+  border: 2px solid #0d0d0e;
+}
+
+.foodslist_header a:hover {
+  background-color: #f70767;
+  color: #f1f2f3;
+}
+
+.foodslist_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.foodlist_row {
+  border-bottom: 1px solid #16479d;
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.foodlist_row img {
+  margin-right: 1em;
+}
+
+.foodlist_row a {
+  text-decoration: none;
+}
+
+.foodlist_row span {
+  min-width: 100px;
+}
+
+.actions {
+  margin-left: auto;
+}
+
+.actions a,
+.actions button {
+  text-decoration: none;
+  color: #16479d;
+  border: 2px solid #16479d;
+  border-radius: 5px;
+  padding: 7px 12px;
+  background-color: #fff;
+  margin-left: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+.actions a:hover,
+.actions button:hover {
+  background-color: #16479d;
+  color: #ee9bbc;
+}
+
+/* .actions .conclude_btn {
+  color: #25b456;
+  border-color: #25b456;
+}
+
+.actions .conclude_btn:hover {
+  color: #fff;
+  background-color: #25b456;
+} */
+
+/* my adoptions */
+.contacts {
+  margin-left: 2em;
+}
+
+.contacts p {
+  margin-bottom: 0.5em;
+}
